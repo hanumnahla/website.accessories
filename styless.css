@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1; 
+    color: #333;
+}
+
+header {
+    background-color: #FFB3B3; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFA6A6; 
+}
+
+.logo {
+    width: 120px;
+    height: 120;
+    border-radius: 10px;
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20;
+    background-color: #FFB3B3; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFA6A6;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFF5E1; 
+
+}
+
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #FF7B7B; 
+    background-color: #FFB3B3; /* Merah muda pastel */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFA6A6; /
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Tabel Produk */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #FFF1F8; /* Warna pink sangat lembut */
+    color: #333;
+}
+
+table, th, td {
+    border: 2px solid #FFB3B3; /* Warna merah muda pastel */
+}
+
+th {
+    background-color: #FFCCD2; /* Pink sedikit lebih gelap */
+    color: #333;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 8px;
+}
+main {
+    padding: 20px;
+ h2 {
+    color: #FF7B7B; 
+    background-color: #FFB3B3; /* Merah muda pastel */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFA6A6; /
+}
+
+p {
+    line-height: 1.6;
+
+}
+
+
+/* Form Saran */
+form {
+    background-color: #FFE4C4; /* Peach lembut */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    color: #FF7B7B;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    border: 2px solid #FFB3B3;
+    border-radius: 5px;
+    background-color: #FFF5E1;
+    color: #333;
+}
+
+input[type="submit"] {
+    background-color: #FF7B7B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFB3B3;
+}
+
+/* Footer */
+footer {
+    background-color: #FFB3B3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #FFA6A6;
+}
+
